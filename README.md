@@ -1,4 +1,5 @@
-#Basic React Starter. Webpack/React/Express
+# Basic React Starter. React/Express/Webpack
 
-npm init /
-npm run develop
+npm install / npm run start
+
+Basic React Starter Using React, Webpack, and Express

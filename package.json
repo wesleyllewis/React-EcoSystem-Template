@@ -6,7 +6,8 @@
     "scripts": {
         "develop": "webpack -d --watch --config webpack.config.js",
         "build": "webpack -p --config webpack.config.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js | webpack -d --watch --config webpack.config.js"
     },
     "author": "Wesley Lewis <wesley.l.lewis@gmail.com> (http://wesleylewis.us)",
     "license": "ISC",
@@ -23,5 +24,13 @@
         "css-loader": "^0.28.4",
         "style-loader": "^0.18.2",
         "webpack": "^3.0.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wesleyllewis/React-EcoSystem-Template.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wesleyllewis/React-EcoSystem-Template/issues"
+    },
+    "homepage": "https://github.com/wesleyllewis/React-EcoSystem-Template#readme"
 }
